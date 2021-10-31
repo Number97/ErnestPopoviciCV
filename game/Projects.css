@@ -1,0 +1,22 @@
+.p-5 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+}
+
+.header {
+    width: max-content;
+}
+
+.col {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
