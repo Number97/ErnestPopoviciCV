@@ -5,3 +5,48 @@
     transform: translate(-50%,-50%);
     margin: 0;
 }
+
+#i1 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0s;
+}
+
+#i2 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0.15s;
+}
+
+#i3 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0.30s;
+}
+
+#i4 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0.45s;
+}
+
+#i5 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0.60s;
+}
+
+#i6 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0.75s;
+}
+
+#i7 {
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 0.90s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
