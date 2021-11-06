@@ -77,6 +77,18 @@
     animation-delay: 1.5s;
 }
 
+.appear12 {
+    opacity: 0;
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 1.65s;
+}
+
+.appear13 {
+    opacity: 0;
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 1.8s;
+}
+
 @keyframes transitionIn {
     from {
         opacity: 0;

@@ -64,6 +64,12 @@
     animation-delay: 1.2s;
 }
 
+.appear8 {
+    opacity: 0;
+    animation: transitionIn 0.75s forwards;
+    animation-delay: 1.4s;
+}
+
 @keyframes transitionIn {
     from {
         opacity: 0;
