@@ -92,3 +92,7 @@ function mousePressed(){
     t=25
     t2=0
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }
