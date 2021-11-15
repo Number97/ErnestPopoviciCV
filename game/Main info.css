@@ -7,7 +7,21 @@
 }
 
 #flockingDiv {
-    animation: transitionIn2 2s forwards;
+    /*animation: transitionIn2 2s forwards;*/
+}
+
+header{
+    color: #fffbf6; 
+    border-radius: 30px;
+    background-color: rgba(31, 31, 31, 0.7);
+    transition: 0.3s;
+    border-style: solid;
+    border-color: rgba(255, 245, 238, 0.3);
+}
+
+header:hover{
+    background-color: rgba(31, 31, 31, 1);
+    border-color: rgba(255, 245, 238, 0.8);
 }
 
 #i1 {
