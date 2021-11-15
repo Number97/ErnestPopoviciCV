@@ -156,13 +156,14 @@ class Boid {
         this.acceleration.add(sepObjects)
     }
 
-    update(separationPower,boidsPerception) {
+    update(separationPower,boidsPerception,maxSpeed) {
         this.position.add(this.velocity)
         this.velocity.add(this.acceleration)
         this.velocity.limit(this.maxSpeed)
         this.acceleration.set(0, 0)
         this.maxSeparationForce = separationPower
         this.boidsPerception = boidsPerception
+        this.maxSpeed = maxSpeed
     }
 
     show() {

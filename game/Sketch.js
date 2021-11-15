@@ -2,6 +2,7 @@ let flock = []
 let objects = []
 let separationPower = 0.2
 let boidsPerception = 15
+let maxSpeed = 3
 let t = 0
 let t2 = 0
 
@@ -52,7 +53,7 @@ function draw() {
         boid.edges()
         boid.flock(flock)
         boid.flockObjects(objects)
-        boid.update(separationPower,boidsPerception);
+        boid.update(separationPower,boidsPerception,maxSpeed);
         boid.show();
     }
 
@@ -96,4 +97,21 @@ function mousePressed(){
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
-  }
+}
+
+function mouseOn(){
+    /*
+    separationPower = 1
+    boidsPerception = 100
+    t2 = 0
+    */
+    maxSpeed = 1
+}
+
+function mouseOut(){
+    /*
+    separationPower = 0.2
+    boidsPerception = 15
+    */
+    maxSpeed = 3
+}
