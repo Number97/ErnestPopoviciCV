@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+#flockingDiv {
+    animation: transitionIn2 2s forwards;
+}
+
 #i1 {
     animation: transitionIn 0.75s forwards;
     animation-delay: 0s;
@@ -50,3 +54,15 @@
         opacity: 1;
     }
 }
+
+@keyframes transitionIn2 {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    to {
+        background-color: rgba(31, 31, 31, 0.7);
+    }
+}
+
+

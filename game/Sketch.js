@@ -15,6 +15,7 @@ function setup() {
     for(let i = 0 ; i < 200 ; i++) {
         flock.push(new Boid())
     }
+    /*
     for(let i = 0 ; i <= 22 ; i++) {
         objects.push(new ObjectType(width/2 - 110 +i*10, height/2 +  140)) 
     }
@@ -35,13 +36,13 @@ function setup() {
     objects.push(new ObjectType(width/2 - 135, height/2 - 120)) 
     objects.push(new ObjectType(width/2 - 135, height/2 - 110)) 
     objects.push(new ObjectType(width/2 - 135, height/2 - 100)) 
-    objects.push(new ObjectType(width/2 - 135, height/2 - 90)) 
+    objects.push(new ObjectType(width/2 - 135, height/2 - 90))
 
     objects.push(new ObjectType(width/2 - 120, height/2 - 80))
     objects.push(new ObjectType(width/2 - 130, height/2 - 80))
 
     objects.push(new ObjectType(width/2 + 120, height/2 - 80))
-    objects.push(new ObjectType(width/2 + 130, height/2 - 80))
+    objects.push(new ObjectType(width/2 + 130, height/2 - 80))*/
 }
 
 function draw() {
