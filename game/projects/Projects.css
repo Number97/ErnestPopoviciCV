@@ -6,10 +6,6 @@
     margin: 0;
 }
 
-.header {
-    width: max-content;
-}
-
 .col {
     padding-left: 40px;
     padding-right: 40px;
@@ -98,6 +94,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(180deg, #C8C8C8 0%, #BBDEF0 100%);
+    background-size: 100% 100%;
 }
 
 .row{
@@ -111,8 +108,7 @@ body {
 }
 
 body .container {
-    display: grid;
-    grid-gap: 35px;
+    max-width: 10000px;
 }
 body .container .card {
     position: relative;
@@ -254,17 +250,6 @@ body .container .card:nth-child(7) .face.face2 {
     transform: translateY(0);
   }
 
-
-section {
-    height: 100vh;
-    width: 100%;
-    display: table;
-    
-  }
-  section.ok{
-    background-color: #555;
-  }
-  
   p{
     color: white;
     font-family: arial;
@@ -282,7 +267,7 @@ section {
   .scroll-down {
     position: absolute;
     bottom: 30px;
-    left: 50%;
+    left: 50px;
     margin-left: -16px;
     display: block;
     width: 32px;
