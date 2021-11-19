@@ -1,16 +1,3 @@
-.p-5 {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%,-50%);
-    margin: 0;
-}
-
-.col {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
 .card {
     margin: 0 auto; /* Added */
     float: none; /* Added */
@@ -87,30 +74,21 @@
         opacity: 1;
     }
 }
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(180deg, #C8C8C8 0%, #BBDEF0 100%);
-    background-size: 100% 100%;
+
+body .container-p {
+    max-width: 10000px;
 }
 
-.row{
+body .container-p .row{
     justify-content: center;
     align-items: top;
 }
 
-.card-header{
+body .container-p .card-header{
     width: 300px;
     transform: translateX(-12px);
 }
-
-body .container {
-    max-width: 10000px;
-}
-body .container .card {
+body .container-p .card {
     position: relative;
     width: 300px;
     height: 400px;
@@ -120,7 +98,7 @@ body .container .card {
     border-width: 0px;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 }
-body .container .card .face {
+body .container-p .card .face {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -130,35 +108,35 @@ body .container .card .face {
     justify-content: center;
     align-items: center;
 }
-body .container .card .face.face1 {
+body .container-p .card .face.face1 {
     box-sizing: border-box;
     padding: 20px;
 }
-body .container .card .face.face1 h2 {
+body .container-p .card .face.face1 h2 {
     margin: 0;
     padding: 0;
 }
-body .container .card .face.face1 .java {
+body .container-p .card .face.face1 .java {
     background-color: #ccf7ff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
 }
 
-body .container .card .face.face1 .python {
+body .container-p .card .face.face1 .python {
     background-color: #c6cfff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-body .container .card .face.face1 .cSharp {
+body .container-p .card .face.face1 .cSharp {
     background-color: #cdfff0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-body .container .card .face.face2 {
+body .container-p .card .face.face2 {
     transition: 0.5s;
 }
-body .container .card .face.face2 h1 {
+body .container-p .card .face.face2 h1 {
     margin: 40px;
     padding: 0;
     font-size: 30px;
@@ -167,7 +145,7 @@ body .container .card .face.face2 h1 {
     text-shadow: 2px 2px 2px black;
     z-index: 10;
 }
-body .container .card .face.face2 h2 {
+body .container-p .card .face.face2 h2 {
     margin: 40px;
     padding: 0;
     font-size: 30px;
@@ -176,37 +154,37 @@ body .container .card .face.face2 h2 {
     text-shadow: 2px 2px 2px black;
     z-index: 10;
 }
-body .container .card:hover .face.face2 {
+body .container-p .card:hover .face.face2 {
     height: 60px;
 
 }
-body .container .card:hover .face.face2 h1 {
+body .container-p .card:hover .face.face2 h1 {
     font-size: 18px;
     margin: 0;
 }
-body .container .card:hover .face.face2 h2 {
+body .container-p .card:hover .face.face2 h2 {
     font-size: 24px;
     margin: 0;
 }
-body .container .card:nth-child(1) .face.face2 {  
+body .container-p .card:nth-child(1) .face.face2 {  
     border-radius: 15px;
 }
-body .container .card:nth-child(2) .face.face2 {
+body .container-p .card:nth-child(2) .face.face2 {
     border-radius: 15px;
 }
-body .container .card:nth-child(3) .face.face2 {
+body .container-p .card:nth-child(3) .face.face2 {
     border-radius: 15px;
 }
-body .container .card:nth-child(4) .face.face2 {
+body .container-p .card:nth-child(4) .face.face2 {
     border-radius: 15px;
 }
-body .container .card:nth-child(5) .face.face2 {  
+body .container-p .card:nth-child(5) .face.face2 {  
     border-radius: 15px;
 }
-body .container .card:nth-child(6) .face.face2 {
+body .container-p .card:nth-child(6) .face.face2 {
     border-radius: 15px;
 }
-body .container .card:nth-child(7) .face.face2 {
+body .container-p .card:nth-child(7) .face.face2 {
     border-radius: 15px;
 }
 
@@ -250,7 +228,7 @@ body .container .card:nth-child(7) .face.face2 {
     transform: translateY(0);
   }
 
-  p{
+  body .container-p p{
     color: white;
     font-family: arial;
     display: table-cell;
@@ -267,7 +245,7 @@ body .container .card:nth-child(7) .face.face2 {
   .scroll-down {
     position: absolute;
     bottom: 30px;
-    left: 50px;
+    left: 50%;
     margin-left: -16px;
     display: block;
     width: 32px;
@@ -292,6 +270,43 @@ body .container .card:nth-child(7) .face.face2 {
       height: 12px;
       content: "";
       border: 2px solid black;
+      border-width: 0px 0 2px 2px;
+  }
+  
+  .scroll-down-2 {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+  }
+  
+  .scroll-down-2 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid white;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  
+  .scroll-down-2:before {
+      position: absolute;
+      top: calc(50% - 8px);
+      left: calc(50% - 6px);
+      transform: rotate(-45deg);
+      display: block;
+      width: 12px;
+      height: 12px;
+      content: "";
+      border: 2px solid white;
       border-width: 0px 0 2px 2px;
   }
   

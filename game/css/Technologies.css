@@ -11,85 +11,85 @@
 }
 
 
-.appear1 {
+.apppear1 {
     opacity: 0;
-    animation: transitionIn1 0.75s forwards;
+    animation: transitionIn4 0.75s forwards;
     animation-delay: 0s;
 }
 
-.appear2 {
+.apppear2 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 0.15s;
 }
 
-.appear3 {
+.apppear3 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 0.30s;
 }
 
-.appear4 {
+.apppear4 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 0.45s;
 }
 
-.appear5 {
+.apppear5 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 0.60s;
 }
 
-.appear6 {
+.apppear6 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 0.75s;
 }
 
-.appear7 {
+.apppear7 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 0.9s;
 }
 
-.appear8 {
+.apppear8 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 1.05s;
 }
 
-.appear9 {
+.apppear9 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 1.2s;
 }
 
-.appear10 {
+.apppear10 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 1.35s;
 }
 
-.appear11 {
+.apppear11 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 1.5s;
 }
 
-.appear12 {
+.apppear12 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 1.65s;
 }
 
-.appear13 {
+.apppear13 {
     opacity: 0;
-    animation: transitionIn 0.75s forwards;
+    animation: transitionIn3 0.75s forwards;
     animation-delay: 1.8s;
 }
 
-@keyframes transitionIn {
+@keyframes transitionIn3 {
     from {
         opacity: 0;
         transform: translateX(10px);
@@ -101,7 +101,7 @@
     }
 }
 
-@keyframes transitionIn1 {
+@keyframes transitionIn4 {
     from {
         opacity: 0;
     }
