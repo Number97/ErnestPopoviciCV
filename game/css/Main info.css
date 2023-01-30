@@ -148,3 +148,6 @@ header:hover{
     box-shadow: none;
     transform: translateY(0);
   }
+.face2 {
+    border: 2px solid lightblue;
+}
