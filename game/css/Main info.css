@@ -72,7 +72,7 @@ header:hover{
     opacity: 0;
 
     min-height: 62px;
-    min-width: 222px;
+    min-width: 182px;
 }
 
 #i6:hover{
@@ -148,6 +148,6 @@ header:hover{
     box-shadow: none;
     transform: translateY(0);
   }
-.face2 {
-    border: 2px solid lightblue;
-}
+  .face2 {
+      border: 2px solid white;
+  }
